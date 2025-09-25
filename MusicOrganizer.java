@@ -62,6 +62,16 @@ public class MusicOrganizer
         }
     }
     
+    public void listWithIndex() ////Question 24.
+    {
+    int position = 0; 
+    for (String filename : files) {
+        System.out.println(position + ": " + filename);
+        position++; 
+    }     
+        
+    }
+    
     /**
      * Remove a file from the collection.
      * @param index The index of the file to be removed.
@@ -69,7 +79,7 @@ public class MusicOrganizer
     public void removeFile(int index)
     {
         if(validIndex(index)) {
-            files.remove(index);
+        files.remove(index);
         }
     }
 
