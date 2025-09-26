@@ -20,3 +20,24 @@ method prints a list of the collection.
 25:Yes,when we invoke the method,it only lists matching files,but 
 when trying with a search string not matching any of the file names,
 no file names appear.
+
+
+
+Q27:      public void playArtistSamples(String artistName)
+{
+    public void playSample(String filename);
+    
+    for(String filename : files) {
+        if(filename.contains(artistName)) {
+            MusicPlayer.playSample(filename);
+        }
+    }
+}
+
+
+
+
+
+
+
+Q28:  for (Track track : trackList)
