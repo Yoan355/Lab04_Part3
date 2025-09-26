@@ -52,7 +52,27 @@ public class MusicOrganizer
         }
     }
     
-    /**
+    
+    public void listMatching(String searchString)
+    {
+
+    
+        boolean isFound = true;
+        
+        
+        for(String filename: files) { 
+             if(filename.contains(searchString)) {  
+                 System.out.println("User found: " + filename);
+             } else {
+                isFound = false;
+             }
+         }/////Question 26
+         
+          if (isFound == false) {
+            System.out.println("is not found.");
+            }
+    }
+    /*
      * Show a list of all the files in the collection.
      */
     public void listAllFiles()
