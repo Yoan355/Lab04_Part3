@@ -15,3 +15,8 @@ Create a MusicOrganizer object on the object bench.
 Use its methods to add, remove, and play files. The listAllFiles
 method prints a list of the collection.
 
+/////////////////////////Question and Awnsers//////////////////
+
+25:Yes,when we invoke the method,it only lists matching files,but 
+when trying with a search string not matching any of the file names,
+no file names appear.
